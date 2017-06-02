@@ -18,18 +18,18 @@ display:
 /* Main background and settings background */
 
 .app {
-background:url("https://cdn.discordapp.com/attachments/253879759002402816/309375912334458881/re-zero-kara-hajimeru-isekai-seikatsu-emilia-rem-pack-anime-3258.png")!important;
+background:url("https://cdn.discordapp.com/attachments/253879759002402816/311445380929683456/740215.png")!important;
 background-size:cover!important;
 }
 
 .callout-backdrop {
-background:url(https://cdn.discordapp.com/attachments/253879759002402816/309375866897563649/thumb-1920-740817.jpg)!important;
+background:url(https://cdn.discordapp.com/attachments/253879759002402816/311445376227999754/728031.jpg)!important;
 background-size:cover!important;
 opacity:.95!important
 }
 
 .theme-dark .ui-standard-sidebar-view{
-	background: url(https://cdn.discordapp.com/attachments/253879759002402816/309375880344371201/thumb-1920-715036.png);
+	background: url(https://cdn.discordapp.com/attachments/253879759002402816/311445392388653056/728028.jpg);
 }
 
 /* Embed Left Borders and Background */
@@ -394,7 +394,7 @@ top:-20px!important
 .guilds-wrapper .guilds .guild .guild-inner a {
 width:50px!important;
 height:50px!important;
-background-size:50px 50px!important;
+background-size:cover!important;
 border-radius:0px!important
 }
 
@@ -643,7 +643,7 @@ border-radius:25px;
 border:none;
 	width: 20px;
 	height: 20px;
-	background-size: 20px;
+	background-size: cover;
 }
 
 .guild-channels .channel-voice-states li.speaking .avatar-small {
@@ -798,7 +798,7 @@ box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;*/
 width: 40px;
 height: 40px;
-background-size: 40px 40px;
+background-size: cover;
 }
 
 .account .account-details .username {
@@ -1372,7 +1372,7 @@ margin-bottom:8px;
 background-color:#232323;
 width: 80px;
 height: 80px;
-background-size: 80px 80px;
+background-size: cover;
 border-radius: 6px;
 }
 
@@ -2323,7 +2323,9 @@ border-color:#191919
 .avatar-xxlarge {
 border-radius:0;
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
-inset 1px -1px 8px #000,1px -1px 8px #000
+inset 1px -1px 8px #000,1px -1px 8px #000;
+background-size:cover;
+background-position: center center;
 }
 
 /*CANNOT REMEMBER WHAT AVATAR THIS CHANGES*/
@@ -2461,7 +2463,9 @@ border:none;
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
 border-radius:0;
-background-color:#232323
+background-color:#232323;
+background-size: cover;
+background-position: center center;
 }
 
 .user-popout .body {
@@ -2485,7 +2489,7 @@ color:#e5e5e5
 
 .user-popout .header.streaming .activity strong {
 color:#b2b2b2;
-margin-left:-66px
+margin-left:0px
 }
 
 .user-popout .header.streaming .live-on-twitch {
@@ -2534,6 +2538,7 @@ color:#e5e5e5
 }
 
 .user-popout .username-wrapper .activity strong {
+display: block;
 visibility:visible;
 font-size:15px;
 color:#ccc;
@@ -2542,8 +2547,9 @@ font-weight:600
 }
 
 .user-popout .username-wrapper .activity {
-visibility:collapse;
-font-size:0
+/*visibility:collapse;*/
+font-size:12px !important;
+font-style:italic;;
 }
 
 .user-popout .username-wrapper.has-nickname .discriminator {
@@ -2981,7 +2987,7 @@ background:rgba(0,0,0,0.5)
 .avatar-small {
     width: 60px;
     height: 60px;
-    background-size: 60px 60px;
+    background-size: cover;
 }
 
 /* CHAT */
@@ -4607,7 +4613,9 @@ border:hidden;
 background-color:rgba(0,0,0,0);
 border-radius:0px;
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
-inset 1px -1px 8px #000,1px -1px 8px #000
+inset 1px -1px 8px #000,1px -1px 8px #000;
+background-size:cover;
+background-position: center center;
 }
 
 #user-profile-modal .guilds .avatar-large {
