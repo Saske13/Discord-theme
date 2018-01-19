@@ -18,18 +18,18 @@ display:
 /* Main background and settings background */
 
 .app {
-background:url("https://cdn.discordapp.com/attachments/253879759002402816/364686543513976832/797485.jpg")!important;
+background:url("https://cdn.discordapp.com/attachments/353175303692222464/384696086935109644/wallhaven-110160.jpg")!important;
 background-size:cover!important;
 }
 
-.callout-backdrop {
-background:url(https://cdn.discordapp.com/attachments/253879759002402816/364686913556185088/791945.png)!important;
+.callout-backdrop, .backdrop-2ohBEd {
+background:url(https://cdn.discordapp.com/attachments/353175303692222464/384737569516290048/wallhaven-346661.jpg)!important;
 background-size:cover!important;
 opacity:.8!important
 }
 
 .theme-dark .ui-standard-sidebar-view{
-	background: url(https://cdn.discordapp.com/attachments/253879759002402816/364687030279602176/811384.png);
+	background: url(https://cdn.discordapp.com/attachments/353175303692222464/384722468159619076/wallhaven-409699.jpg);
 	background-size:cover!important;
 }
 
@@ -91,7 +91,7 @@ background:transparent!important
 .body-3rkFrF {
 	padding: 10px;
     background: #191919;
-    border-top: 5px solid rgba(153,0,0,1);
+    border-top: 3px solid rgba(153,0,0,1);
 }
 
 .body-3rkFrF .member-roles {
@@ -2254,7 +2254,8 @@ display: none;
 }
 
 .channel-members .member {
-margin-left:4px
+height: 60px;
+margin:5px
 }
 
 .channel-members .member .member-activity {
@@ -2472,10 +2473,9 @@ border-radius:0
 }
 
 .avatarNormal-3luwna {
-border:none;
+border:2px solid rgba(153,0,0,1);
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
-border-radius:0;
 background-color:#232323;
 background-size: cover;
 background-position: center center;
@@ -6320,6 +6320,72 @@ text-align:center;
 top:132px
 }
 
+/*Carl tags*/
+.message-group .avatar-large[style*="376121356766674948"]+.comment .user-name::after {
+content:"Annoying guy";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:4px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.guild-settings-modal-members .avatar-small[style*="376121356766674948"]+.member-inner .member-username::after {
+content:"Annoying guy";
+background:#900;
+color:#e5e5e5;
+border-radius:3px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700;
+margin-left:4px
+}
+
+div.avatar-small[style*="376121356766674948"]+.member-inner .member-username-inner::after {
+content:"Annoying guy";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:1px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.avatar-popout[style*="376121356766674948"]::after {
+content:"Annoying guy";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2.5px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:93px
+}
+
+.avatar-profile[style*="376121356766674948"]::after {
+content:"Annoying guy";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:132px
+}
+
 
 /*Kyoko tags*/
 .message-group .avatar-large[style*="169465957146820608"]+.comment .user-name::after {
@@ -6373,6 +6439,72 @@ top:93px
 
 .avatar-profile[style*="169465957146820608"]::after {
 content:"ツンデレ";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:132px
+}
+
+/*Nekololi tags*/
+.message-group .avatar-large[style*="251297347806560266"]+.comment .user-name::after {
+content:"lol";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:4px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.guild-settings-modal-members .avatar-small[style*="251297347806560266"]+.member-inner .member-username::after {
+content:"lol";
+background:#900;
+color:#e5e5e5;
+border-radius:3px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700;
+margin-left:4px
+}
+
+div.avatar-small[style*="251297347806560266"]+.member-inner .member-username-inner::after {
+content:"lol";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:1px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.avatar-popout[style*="251297347806560266"]::after {
+content:"lol";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2.5px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:93px
+}
+
+.avatar-profile[style*="251297347806560266"]::after {
+content:"lol";
 color:#e5e5e5;
 background:#900;
 border-radius:3px;
@@ -6453,6 +6585,73 @@ text-align:center;
 top:132px
 }
 
+
+
+/*MIMI tags*/
+.message-group .avatar-large[style*="280490510672592896"]+.comment .user-name::after {
+content:"LOLI";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:4px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.guild-settings-modal-members .avatar-small[style*="280490510672592896"]+.member-inner .member-username::after {
+content:"LOLI";
+background:#900;
+color:#e5e5e5;
+border-radius:3px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700;
+margin-left:4px
+}
+
+div.avatar-small[style*="280490510672592896"]+.member-inner .member-username-inner::after {
+content:"LOLI";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:1px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.avatar-popout[style*="280490510672592896"]::after {
+content:"LOLI";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2.5px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:93px
+}
+
+.avatar-profile[style*="280490510672592896"]::after {
+content:"LOLI";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:132px
+}
 
 
 
@@ -8659,8 +8858,7 @@ position:relative;
 }
 
 .container-RYiLUQ .contentSelectedText-3j5CXt {
-background-color:#232323;
-border-radius:0
+background-color:rgba(200, 0, 0, 0.4);
 }
 
 .container-RYiLUQ .contentHoveredText-2HYGIY {
@@ -8730,6 +8928,33 @@ background:none
     opacity: 0.5;
 }
 
+.content-2mSKOj:before {
+    content: ' ';
+    display: block;
+    height: 0%;
+    width: 2%;
+    background-color: #900;
+    margin-right: 2%;
+}
+
+.content-2mSKOj:hover {
+    margin-left: 4%;
+    background: rgba(24,25,28,.0) !important;
+    transition-duration: 0.25s;
+}
+
+.content-2mSKOj:hover:before {
+    height: 100%;
+    transition-duration: 0.5s;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.content-2mSKOj:hover:before {
+    height: 100%;
+    transition-duration: 0.5s;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
 .ui-standard-sidebar-view .sidebar-region .sidebar {
     background: rgba(0,0,0,0.8);
 }
@@ -9095,4 +9320,65 @@ background:none
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete:hover {
     color: #000;
     background: #fff;
+}
+
+
+/* FIX CANARY */
+.container-2OU7Cz, .header-1tSljs{
+	background: none;
+}
+
+.theme-dark .title-qAcLxz, .header-1tSljs, .channels-3g2vYe{
+    background: rgba(0,0,0,0.7);
+}
+
+.theme-dark .chat form {
+    background-color: transparent;
+}
+
+.headerPlaying-2eYqm9{
+	background-color: #202225;
+}
+
+.activity-AFBUEw {
+    background-color: rgba(0,0,0,0.3);
+    padding: 10px;
+    border-top: 3px solid rgba(153,0,0,1) ;
+}
+
+.topSectionPlaying-3jAH9b{
+	background-color: #202225;
+}
+
+.maskProfile-MeBve8{
+	border-radius: 5px !important;
+	webkit-mask:none !important;
+	mask: initial !important;
+}
+
+.avatar-1BXaQj, .avatarHint-2i5XWK, .avatarWrapper-2Gfmp1 {border-radius: 0 !important;}
+
+.activity-1Sr8Y2 {
+    padding: 20px;
+    background: rgba(0,0,0,0.3);
+}
+.tabBarContainer-3RVZc-{
+	background: rgba(0,0,0,0.5);
+}
+.actionButton-3SG1Zj {
+    background-color: #43b581;
+    color: #fff;
+}
+
+.theme-dark .layer-kosS71, .theme-dark .layers-20RVFW{
+	background: none;
+}
+.emojiPicker-3g68GS {
+    background: rgba(0,0,0,0.7);
+}
+.emojiPicker-3g68GS .stickyHeader-3LjM5X {
+	background: rgba(0,0,0,0.9);
+}
+.search-bar.search-bar-light {
+	background: none;
 }
